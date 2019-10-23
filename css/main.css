@@ -1,0 +1,186 @@
+/***** BASE STYLES *****/
+
+body {
+	background: #1f202b;
+	color: #ffffff;
+	font-family: 'Montserrat' sans-serif;
+	font-weight: 400;
+}
+
+.half-width img {
+	border: #b7b7b7;
+	border-width: 1px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+.half-width {
+	width: 600px;
+	float: left;
+}
+.third-width {
+	width: 400px;
+	float: left;
+}
+/***** HEADER *****/
+
+header {
+	height: 800px;
+	background: url('../img/hero-image.png');
+	background-size: cover;
+}
+
+header h1 {
+	font-size: 30px;
+	font-weight: 400;
+	text-align: left;
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+	margin-left: 40px
+}
+
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+header h2 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 72px;
+	font-weight: 600;
+	padding-top: 300px;
+	text-align: left;
+}
+
+header h2 span {
+	color: #fa0075;
+}
+
+/***** WORK *****/
+
+#work {
+	height: 1400px;
+}
+
+#work .full-width {
+	padding: 80px 0;
+}
+
+#jubilee, #holstee {
+	clear: both;
+}
+
+#work h2 {
+	font-size: 36px;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 600px;
+	color: #fa0075;
+	text-align: center;
+
+}
+
+#work h3, h4 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#work p {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+	height: 550px;
+	background: url('../img/about-me.png');
+	background-size: cover;
+}
+
+#about h2 {
+	font-size: 36px;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 600px;
+	color: #fa0075;
+	text-align: center;
+}
+
+#about p {
+	font-size: 24px;
+	color: #1f202b;
+	padding-left: 130px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+	height: 300px;
+}
+
+#contact h2 {
+	font-size: 36px;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 600;
+	color: #fa0075;
+	text-align: center;
+}
+
+#contact h3, #contact p {
+	text-align: center;
+}
+
+#contact h3 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#contact p {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+#hire-me a {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	padding-left: 75px;
+	text-decoration: none;
+}
+
+#social-media {
+	text-align: center;
+	list-style: none;
+}
+
+#contact ul {
+	padding: 0;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul img {
+	margin: 0 25px;
+}
+/***** FOOTER *****/
+
+#footer h4 {
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
